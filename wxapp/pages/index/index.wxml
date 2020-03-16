@@ -1,0 +1,11 @@
+<!-- index.wxml -->
+<view class="container" catchtouchmove="true">
+    <camera device-position="front" flash="off" binderror="error" frame-size="medium" class="mycamera"></camera>
+    <canvas type="webgl" id="mycanvas" class="mycanvas"></canvas>
+    <!-- <canvas id="testcanvas" canvas-id="testcanvas" class="mycanvas"></canvas> -->
+    <!-- <view class="panel">
+        <block wx:for="{{pose}}">
+            <view class="block">{{item.name}}: x: {{(item.x)}}, y: {{item.y}}</view>
+        </block>
+    </view> -->
+</view>
